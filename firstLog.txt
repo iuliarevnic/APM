@@ -1,0 +1,3359 @@
+Id:
+10
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v;v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+int v
+v = 5;print(v)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5;print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+v = 5
+print(v)
+
+Symbol table:
+v->0
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+print(v)
+
+Symbol table:
+v->5
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+1
+Execution stack:
+
+Symbol table:
+v->5
+
+Output:
+[5]
+File table:
+
+Heap table:
+

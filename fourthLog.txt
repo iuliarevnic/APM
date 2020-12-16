@@ -1,0 +1,10752 @@
+Id:
+10
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@504bae78
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3b764bce
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@1edf1c96
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@d5b88cc
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@54e9ab8d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@5652911d
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@304dafd8
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@135afca9
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@26b2c7c0
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf;varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+string varf
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in;Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+varf = test.in
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf);int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Open file (varf)
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc;Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+int varc
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->0
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc);print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Read file (varf,varc)
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->15
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc);Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+print(varc)
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+Close file (varf)
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+test.in->java.io.BufferedReader@3477988a
+
+Heap table:
+
+Id:
+4
+Execution stack:
+
+Symbol table:
+varf->test.in
+varc->50
+
+Output:
+[15, 50]
+File table:
+
+Heap table:
+

@@ -1,0 +1,6669 @@
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 );Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v;new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(int) v
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+new( v ,20 )
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v );print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a;new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+Reference(Reference(int)) a
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+new( a ,v )
+print(v);print(a)
+
+Symbol table:
+a->( 0 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v);print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(v)
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+print(a)
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+
+Id:
+5
+Execution stack:
+
+Symbol table:
+a->( 2 , Reference(int) )
+v->( 1 , int )
+
+Output:
+[( 1 , int ), ( 2 , Reference(int) )]
+File table:
+
+Heap table:
+1 --> 20
+2 --> ( 1 , int )
+

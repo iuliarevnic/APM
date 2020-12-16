@@ -1,0 +1,5339 @@
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+9
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+10
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+10
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+10
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 );print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ));writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 );print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v;new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+Reference(int) v
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+new( v ,20 )
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ))
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+writeHeap( v, 30 )
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 20
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+print(readHeap( v ) + 5)
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20]
+File table:
+
+Heap table:
+1 --> 30
+
+Id:
+7
+Execution stack:
+
+Symbol table:
+v->( 1 , int )
+
+Output:
+[20, 35]
+File table:
+
+Heap table:
+1 --> 30
+

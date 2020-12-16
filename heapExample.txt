@@ -1,0 +1,2176 @@
+Id:
+11
+Execution stack:
+Reference(int) a;new( a ,101 );Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 ));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 ))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 ))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+12
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[107]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+Reference(int) a;new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+12
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+12
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[103, 103]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+12
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[103, 103]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+Reference(int) a;new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+12
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+12
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[107, 107]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+12
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[107, 107]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+Reference(int) a;new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+12
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+12
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+12
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[103, 103]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+12
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[103, 103]
+File table:
+
+Heap table:
+1 --> 103
+
+Id:
+11
+Execution stack:
+Reference(int) a;new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+14
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+14
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[107, 107]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+14
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[107, 107]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+Reference(int) a;new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Reference(int) a
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 );Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+new( a ,101 )
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )));writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+Fork(writeHeap( a, 103 );print(readHeap( a )))
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 );print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+writeHeap( a, 107 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+14
+Execution stack:
+writeHeap( a, 103 )
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 101
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+14
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+14
+Execution stack:
+print(readHeap( a ))
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+11
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[107, 107]
+File table:
+
+Heap table:
+1 --> 107
+
+Id:
+14
+Execution stack:
+
+Symbol table:
+a->( 1 , int )
+
+Output:
+[107, 107]
+File table:
+
+Heap table:
+1 --> 107
+
