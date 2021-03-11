@@ -37,8 +37,8 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class Controller implements Initializable {
-    private static InterfaceRepository r1,r2,r3,r4,r5,r6,r7,r8,r9,r10;
-    private static controller.Controller c1,c2,c3,c4,c5,c6,c7,c8,c9,c10;
+    private static InterfaceRepository r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11;
+    private static controller.Controller c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11;
 
     @FXML
     ListView<controller.Controller> myProgramList=new ListView<>();
@@ -175,6 +175,27 @@ public class Controller implements Initializable {
         r10=new Repository(tenthProgram,"tenthLog.txt");
         c10=new controller.Controller(r10);
 
+        InterfaceStatement barrierExample=new CompoundStatement(new VariableDeclarationStatement("v1",new ReferenceType(new IntType())),
+                new CompoundStatement(new VariableDeclarationStatement("v2",new ReferenceType(new IntType())),
+                        new CompoundStatement(new VariableDeclarationStatement("v3",new ReferenceType(new IntType())),
+                                new CompoundStatement(new NewStatement(new StringValue("v1"),new ValueExpression(new IntValue(2))),
+                                        new CompoundStatement(new NewStatement(new StringValue("v2"),new ValueExpression(new IntValue(3))),
+                                                new CompoundStatement(new NewStatement(new StringValue("v3"),new ValueExpression(new IntValue(4))),
+                                                        new CompoundStatement(new NewBarrier("cnt",new ReadHeapExpression(new VariableExpression("v2"))),
+                                                                new CompoundStatement(new ForkStatement(new CompoundStatement(new AwaitBarrierStatement("cnt"),
+                                                                        new CompoundStatement(new WriteHeapStatement(new StringValue("v1"),new ArithmeticExpression(new ReadHeapExpression(new VariableExpression("v1")),new ValueExpression(new IntValue(10)),"*")),
+                                                                                new PrintStatement(new ReadHeapExpression(new VariableExpression("v1")))))),
+                                                                        new CompoundStatement(new ForkStatement(new CompoundStatement(new AwaitBarrierStatement("cnt"),
+                                                                                new CompoundStatement(new WriteHeapStatement(new StringValue("v2"),new ArithmeticExpression(new ReadHeapExpression(new VariableExpression("v2")),new ValueExpression(new IntValue(10)),"*")),
+                                                                                        new CompoundStatement(new WriteHeapStatement(new StringValue("v2"),new ArithmeticExpression(new ReadHeapExpression(new VariableExpression("v2")),new ValueExpression(new IntValue(10)),"*")),
+                                                                                                new PrintStatement(new ReadHeapExpression(new VariableExpression("v2"))))))),
+                                                                                new CompoundStatement(new AwaitBarrierStatement("cnt"),new PrintStatement(new ReadHeapExpression(new VariableExpression("v3")))))))))))));
+
+        ArrayList<ProgramState> barrierProgram=new ArrayList<>();
+        barrierProgram.add(new ProgramState(barrierExample));
+        r11=new Repository(barrierProgram,"barrierLog.txt");
+        c11=new controller.Controller(r11);
+
     }
 
     @Override
@@ -191,6 +212,7 @@ public class Controller implements Initializable {
     myData.add(c8);
     myData.add(c9);
     myData.add(c10);
+    myData.add(c11);
     myProgramList.setItems(myData);
     //myProgramList.getSelectionModel().selectFirst();
     myProgramList.setFocusTraversable(true);
@@ -204,6 +226,7 @@ public class Controller implements Initializable {
                         try{
 
                         myProgramList.getFocusModel().getFocusedItem().getOriginalProgram().typecheck(new MyDictionary<>());
+                        myProgramList.getFocusModel().getFocusedItem().clearFile();
                         RunController runController=new RunController();
                         runController.setRunController(myProgramList.getFocusModel().getFocusedItem());
                         return runController;}

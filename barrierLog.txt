@@ -1,0 +1,1651 @@
+Id:
+11
+Execution stack:
+Reference(int) v1;Reference(int) v2;Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v1
+Reference(int) v2;Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v1
+Reference(int) v2;Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v2;Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v2;Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v2
+Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v2
+Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v3;new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v3
+new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Reference(int) v3
+new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v1 ,2 );new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v1 ,2 )
+new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v1 ,2 )
+new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 0 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v2 ,3 );new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v2 ,3 )
+new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v2 ,3 )
+new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 0 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v3 ,4 );newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v3 ,4 )
+newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+new( v3 ,4 )
+newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 0 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+newBarrier(cnt,readHeap( v2 ));Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+newBarrier(cnt,readHeap( v2 ))
+Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+newBarrier(cnt,readHeap( v2 ))
+Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )));Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )))
+Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 )))
+Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )));awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt);writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )))
+awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+Fork(awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 )))
+awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[]
+
+Id:
+11
+Execution stack:
+awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+13
+Execution stack:
+awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+11
+Execution stack:
+awaitBarrier(cnt);print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+13
+Execution stack:
+awaitBarrier(cnt);writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+11
+Execution stack:
+awaitBarrier(cnt)
+print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+13
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+11
+Execution stack:
+awaitBarrier(cnt)
+print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+12
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+13
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12]
+
+Id:
+11
+Execution stack:
+awaitBarrier(cnt)
+print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+12
+Execution stack:
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+11
+Execution stack:
+awaitBarrier(cnt)
+print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+12
+Execution stack:
+writeHeap( v1, readHeap( v1 ) * 10 );print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+awaitBarrier(cnt)
+writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+11
+Execution stack:
+print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+12
+Execution stack:
+writeHeap( v1, readHeap( v1 ) * 10 )
+print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+11
+Execution stack:
+print(readHeap( v3 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+12
+Execution stack:
+writeHeap( v1, readHeap( v1 ) * 10 )
+print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 );writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[]
+File table:
+
+Heap table:
+1 --> 2
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+11
+Execution stack:
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+12
+Execution stack:
+print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 )
+writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+12
+Execution stack:
+print(readHeap( v1 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 )
+writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 3
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+12
+Execution stack:
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 30
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 30
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 );print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 30
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 )
+print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 30
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+writeHeap( v2, readHeap( v2 ) * 10 )
+print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 30
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 300
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+print(readHeap( v2 ))
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 300
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+
+Id:
+13
+Execution stack:
+
+Symbol table:
+cnt->1
+v1->( 1 , int )
+v2->( 2 , int )
+v3->( 3 , int )
+
+Output:
+[4, 20, 300]
+File table:
+
+Heap table:
+1 --> 20
+2 --> 300
+3 --> 4
+
+Barriertable:
+1-->3=[12, 11, 13]
+

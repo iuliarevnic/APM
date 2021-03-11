@@ -18,15 +18,17 @@ public class ProgramState {
     private int id;
     private int lastId=0;
     private static final AtomicInteger assignedId=new AtomicInteger(0);
+    private InterfaceBarrierTable<InterfaceValue> barrierTable;
 
 
-    public ProgramState(InterfaceStack<InterfaceStatement> stack,InterfaceDictionary<String, InterfaceValue> table,InterfaceList<InterfaceValue> output,InterfaceStatement program,InterfaceDictionary<InterfaceValue,BufferedReader>fileTable,InterfaceHeap<InterfaceValue> heap)
+    public ProgramState(InterfaceStack<InterfaceStatement> stack,InterfaceDictionary<String, InterfaceValue> table,InterfaceList<InterfaceValue> output,InterfaceStatement program,InterfaceDictionary<InterfaceValue,BufferedReader>fileTable,InterfaceHeap<InterfaceValue> heap,InterfaceBarrierTable<InterfaceValue> barrierTable)
     {
         executionStack=stack;
         symbolTable=table;
         out=output;
         this.fileTable=fileTable;
         this.heap=heap;
+        this.barrierTable=barrierTable;
         //id=getNextId();
         id=assignedId.incrementAndGet();
         //id=assignedId.getAndIncrement();
@@ -40,6 +42,7 @@ public class ProgramState {
         out=new MyList<InterfaceValue>();
         fileTable=new MyDictionary<InterfaceValue,BufferedReader>();
         heap=new MyHeap<InterfaceValue>();
+        barrierTable=new BarrierTable<>();
         //id=getNextId();
         id=assignedId.incrementAndGet();
         //id=assignedId.getAndIncrement();
@@ -100,7 +103,8 @@ public class ProgramState {
                 "Symbol table:\n"+symbolTable.toString()+"\n"+
                 "Output:\n"+out.toString()+"\n"+
                 "File table:\n"+fileTable.toString()+"\n"+
-                "Heap table:\n"+heap.toString()+"\n";
+                "Heap table:\n"+heap.toString()+"\n"+
+                "Barriertable:\n"+barrierTable.toString()+"\n";
     }
     public String toString1() {
         return  "Id:\n"+id+"\n"+
@@ -108,7 +112,8 @@ public class ProgramState {
                 "Symbol table:\n"+symbolTable.toString()+"\n"+
                 "Output:\n"+out.toString()+"\n"+
                 "File table:\n"+fileTable.toString()+"\n"+
-                "Heap table:\n"+heap.toString()+"\n";
+                "Heap table:\n"+heap.toString()+"\n"+
+                "Barriertable:\n"+barrierTable.toString()+"\n";
     }
     public InterfaceDictionary<InterfaceValue, BufferedReader> getFileTable() {
         return fileTable;
@@ -137,4 +142,15 @@ public class ProgramState {
      InterfaceStatement currentStatement=executionStack.pop();
      return currentStatement.execute(this);
     }
+
+
+    public InterfaceBarrierTable<InterfaceValue> getBarrierTable() {
+        return barrierTable;
+    }
+
+    public void setBarrierTable(InterfaceBarrierTable<InterfaceValue> barrierTable) {
+        this.barrierTable = barrierTable;
+    }
+
+
 }

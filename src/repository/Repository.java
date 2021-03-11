@@ -55,6 +55,18 @@ public class Repository implements InterfaceRepository{
     }
 
     @Override
+    public void clearLog() throws MyException {
+        try {
+            PrintWriter logFile;
+            logFile = new PrintWriter(new FileWriter(logFilePath));
+            logFile.close();
+        }catch(IOException e)
+        {
+            throw new MyException(e.getMessage());
+        }
+    }
+
+    @Override
     public ArrayList<ProgramState> getAll() {
         return repository;
     }

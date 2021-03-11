@@ -14,9 +14,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import javafx.util.Pair;
 import model.ProgramState;
+import model.collections.InterfaceBarrierTable;
 import model.collections.InterfaceDictionary;
 import model.collections.InterfaceHeap;
+import model.collections.MyList;
 import model.values.InterfaceValue;
 
 import java.io.BufferedReader;
@@ -38,6 +41,8 @@ public class RunController implements Initializable {
     @FXML
     public TableView symbolTableView=new TableView();
     @FXML
+    public TableView barrierTableView=new TableView();
+    @FXML
     public Button oneStepButton=new Button();
     @FXML
     public TableView fileTableView=new TableView();
@@ -49,6 +54,10 @@ public class RunController implements Initializable {
     public TableColumn<Map.Entry<String, InterfaceValue>, String> symbolTableColumnVariable=new TableColumn<>();
     @FXML
     public TableColumn<Map.Entry<String, InterfaceValue>, Integer> symbolTableColumnValue=new TableColumn<>();
+    @FXML
+    public TableColumn<Map.Entry<Integer, Pair<InterfaceValue,MyList<Integer>>>, String> barrierTableColumnVariable=new TableColumn<>();
+    @FXML
+    public TableColumn<Map.Entry<Integer, Pair<InterfaceValue,MyList<Integer>>>,Integer> barrierTableColumnValue=new TableColumn<>();
     @FXML
     public TableColumn<Map.Entry<InterfaceValue, BufferedReader>, InterfaceValue> fileTableColumnId=new TableColumn<>();
     @FXML
@@ -90,6 +99,8 @@ public class RunController implements Initializable {
         updateHeapTable(programState);
         updateFileTable(programState);
         updateExeStack(programState);
+        updateBarrierTable(programState);
+        numberOfProgramStatesField.setText(String.valueOf(myController.getRepository().getProgramList().size()));
     }
 
 
@@ -186,6 +197,14 @@ public class RunController implements Initializable {
         symbolTableView.refresh();
     }
 
+    private void updateBarrierTable(ProgramState programState)
+    {
+        InterfaceBarrierTable<InterfaceValue> barrierTable = programState.getBarrierTable();
+        List<Map.Entry<Integer, Pair<InterfaceValue, MyList<Integer>>>> barrierTableList = new ArrayList(barrierTable.getEntrySet());
+        barrierTableView.setItems(FXCollections.observableArrayList(barrierTableList));
+        barrierTableView.refresh();
+    }
+
 
     @FXML
     public void changeCurrentProgramState()
@@ -212,6 +231,10 @@ public class RunController implements Initializable {
 
         oneStepButton.setOnAction(actionEvent -> { executeOneStep(); });
         numberOfProgramStatesField.setText(String.valueOf(myController.getRepository().getProgramList().size()));
+
+        barrierTableColumnVariable.setCellValueFactory(p -> new SimpleStringProperty(p.getValue().getKey().toString()));
+        barrierTableColumnValue.setCellValueFactory(p -> new SimpleObjectProperty(p.getValue().getValue()));
+
 
     }
 }

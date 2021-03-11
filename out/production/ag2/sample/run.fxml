@@ -18,6 +18,7 @@
             </columns>
         </TableView>
         <Label layoutX="69.0" layoutY="6.0" text="Heap Table" />
+
         <ListView fx:id="outputListView" layoutX="211.0" layoutY="25.0" prefHeight="200.0" prefWidth="180.0" />
         <Label layoutX="278.0" layoutY="6.0" text="Output" />
         <TableView fx:id="fileTableView" layoutX="403.0" layoutY="25.0" prefHeight="200.0" prefWidth="180.0">
@@ -40,6 +41,13 @@
         <Label layoutX="258.0" layoutY="252.0" text="Symbol table" />
 
 
+        <TableView fx:id="barrierTableView" layoutX="658.0" layoutY="25.0" prefHeight="100.0" prefWidth="180.0">
+            <columns>
+                <TableColumn fx:id="barrierTableColumnVariable" prefWidth="84.0" text="Column" />
+                <TableColumn fx:id="barrierTableColumnValue" prefWidth="95.0" text="Value" />
+            </columns>
+        </TableView>
+        <Label layoutX="658.0" layoutY="6.0" text="Barrier Table" />
 
         <TextField fx:id="numberOfProgramStatesField" layoutX="87.0" layoutY="521.0" />
         <Label layoutX="86.0" layoutY="505.0" text="Number of program states" />

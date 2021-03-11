@@ -18,7 +18,7 @@ public class NopStatement implements  InterfaceStatement{
 
     @Override
     public InterfaceDictionary<String, InterfaceType> typecheck(InterfaceDictionary<String, InterfaceType> assignedTypes) throws MyException {
-        return null;
+        return assignedTypes;
     }
 
     @Override

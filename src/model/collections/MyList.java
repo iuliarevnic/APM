@@ -24,6 +24,11 @@ public class MyList<T> implements InterfaceList<T> {
     }
 
     @Override
+    public boolean isDefined(Integer key) {
+        return list.contains(key);
+    }
+
+    @Override
     public T getElement(int index) {
         return list.get(index);
     }

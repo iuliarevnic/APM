@@ -12,6 +12,7 @@ public interface InterfaceRepository {
     void logPrgStateExec(ProgramState program) throws MyException;
     ArrayList<ProgramState> getAll();
     int length();
+    void clearLog() throws MyException;
     ArrayList<ProgramState> getProgramList();
     ProgramState getProgramStateById(int Id);
     void setProgramList(ArrayList<ProgramState> newRepository);

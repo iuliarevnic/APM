@@ -27,7 +27,15 @@ public class Controller {
     public String toString() {
         return repository.toString();
     }
-
+    public void clearFile()
+    {
+        try{
+            repository.clearLog();
+        }
+        catch (MyException exception) {
+            System.out.println(exception.getMessage());
+        }
+    }
     public Controller(InterfaceRepository repository)
     {
         this.repository=repository;
@@ -182,6 +190,12 @@ public class Controller {
         executor= Executors.newFixedThreadPool(2);
         //remove the completed programs
         ArrayList<ProgramState> programList=removeCompletedProgram(repository.getProgramList());
+        try{
+            repository.clearLog();}
+        catch(MyException e)
+        {
+            System.out.println(e.getMessage());
+        }
         while(programList.size()>0)
         {
             repository.getProgramIndex(repository.length()-1).getHeap().setContent(conservativeGarbageCollector(addIndirectReferences(getAddrFromSymTable(repository.getAll()),repository.getProgramIndex(repository.length()-1).getHeap()

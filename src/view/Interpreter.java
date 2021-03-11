@@ -193,6 +193,31 @@ public class Interpreter {
         InterfaceRepository ggg=new Repository(gg,"g.txt");
         Controller gggg=new Controller(ggg);
 
+
+
+        InterfaceStatement barrierExample=new CompoundStatement(new VariableDeclarationStatement("v1",new ReferenceType(new IntType())),
+                new CompoundStatement(new VariableDeclarationStatement("v2",new ReferenceType(new IntType())),
+                        new CompoundStatement(new VariableDeclarationStatement("v3",new ReferenceType(new IntType())),
+                                new CompoundStatement(new NewStatement(new StringValue("v1"),new ValueExpression(new IntValue(2))),
+                                        new CompoundStatement(new NewStatement(new StringValue("v2"),new ValueExpression(new IntValue(3))),
+                                                new CompoundStatement(new NewStatement(new StringValue("v3"),new ValueExpression(new IntValue(4))),
+                                                        new CompoundStatement(new NewBarrier("cnt",new ReadHeapExpression(new VariableExpression("v2"))),
+                                                                new CompoundStatement(new ForkStatement(new CompoundStatement(new AwaitBarrierStatement("cnt"),
+                                                                        new CompoundStatement(new WriteHeapStatement(new StringValue("v1"),new ArithmeticExpression(new ReadHeapExpression(new VariableExpression("v1")),new ValueExpression(new IntValue(10)),"*")),
+                                                                                new PrintStatement(new ReadHeapExpression(new VariableExpression("v1")))))),
+                                                                        new CompoundStatement(new ForkStatement(new CompoundStatement(new AwaitBarrierStatement("cnt"),
+                                                                                new CompoundStatement(new WriteHeapStatement(new StringValue("v2"),new ArithmeticExpression(new ReadHeapExpression(new VariableExpression("v2")),new ValueExpression(new IntValue(10)),"*")),
+                                                                                        new CompoundStatement(new WriteHeapStatement(new StringValue("v2"),new ArithmeticExpression(new ReadHeapExpression(new VariableExpression("v2")),new ValueExpression(new IntValue(10)),"*")),
+                                                                                                new PrintStatement(new ReadHeapExpression(new VariableExpression("v2"))))))),
+                                                                                new CompoundStatement(new AwaitBarrierStatement("cnt"),new PrintStatement(new ReadHeapExpression(new VariableExpression("v3")))))))))))));
+
+        ArrayList<ProgramState> barrierProgram=new ArrayList<>();
+        barrierProgram.add(new ProgramState(barrierExample));
+        InterfaceRepository barrierRepository=new Repository(barrierProgram,"barrierLog.txt");
+        Controller barrierController=new Controller(barrierRepository);
+
+
+
         TextMenu textMenu = new TextMenu();
         textMenu.addCommand(new ExitCommand("0", "Exit"));
         textMenu.addCommand(new RunExample("1", firstExample.toString(), firstController));
@@ -208,6 +233,7 @@ public class Interpreter {
         textMenu.addCommand(new RunExample("101",heapExample.toString(),heapController));
         textMenu.addCommand(new RunExample("2991",statement.toString(),controller));
         textMenu.addCommand(new RunExample("1151191",g.toString(),gggg));
+        textMenu.addCommand(new RunExample("1189",barrierExample.toString(),barrierController));
         textMenu.show();
 
     }

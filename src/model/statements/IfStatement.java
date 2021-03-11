@@ -32,15 +32,16 @@ public class IfStatement implements InterfaceStatement{
 
         try{
             value=expression.evaluate(symbolTable, state.getHeap());
+            if(value.getValue().equals(true))
+                stack.push(thenStatement);
+            else
+                stack.push(elseStatement);
         }
         catch(MyException exception)
         {
             throw new MyException(exception.getMessage());
         }
-        if(value.equals(new BoolValue(true)))
-            stack.push(thenStatement);
-        else
-            stack.push(elseStatement);
+
 
         return null;
     }

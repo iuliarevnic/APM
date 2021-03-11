@@ -14,7 +14,7 @@ public class ForkStatement implements InterfaceStatement{
     }
     @Override
     public ProgramState execute(ProgramState state) throws MyException {
-        return new ProgramState(new MyStack<>(), state.getSymbolTable().deepCopy(), state.getOut(), statement, state.getFileTable(), state.getHeap());
+        return new ProgramState(new MyStack<>(), state.getSymbolTable().deepCopy(), state.getOut(), statement, state.getFileTable(), state.getHeap(),state.getBarrierTable());
     }
 
     @Override
