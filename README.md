@@ -1,2 +1,2 @@
 # APM
-Advanced Programming Methods project
+Advanced Programming Methods Interpreter project
